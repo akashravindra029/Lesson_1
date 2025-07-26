@@ -8,4 +8,4 @@ def posts_list(request):
     return render(request, 'posts/posts_list.html', {'posts': posts}) 
 
 def posts_page(request, slug):
-    return HttpResponse(slug)
+    return HttpResponse(slug) # This is a placeholder response for the post page.
